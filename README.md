@@ -8,6 +8,17 @@ This is a small project inspired (stealed) from https://dmitryfrank.com/articles
  # Make it work 
  * mv ccd.fish into your fish function folder
  * edit the path in ccd.fish
-
+```
+chmod +x cdscuts_glob_echo
+```
+```
+chmod +x cdscuts_list_echo
+```
+```
+ln -s "path of this repo"   /bin/cdscuts_glob_echo
+```
+```
+ln -s "path of this repo"   /bin/cdscuts_list_echo
+```
  # requirement
  * fzf
